@@ -1,0 +1,43 @@
+body {
+    margin: 12px;
+    font-family: Ariel, Helvetica, sans-serif;
+    color: hotpink
+    padding: 10px;
+    background-color: lightblue;
+}
+
+header {
+    background-color: hotpink;
+    padding: 30px; 
+ }
+header h1 {
+    margin: 0;
+}
+#first-one {
+    background-color: blueviolet;
+}
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+}
+ section {
+    display: inline-block; 
+    margin-right: 40px;
+    margin-top: 40px;
+    
+    padding: 20px;
+    border: solid 1px;
+ }
+section > p { 
+    font-weight: bold;
+    background-color: aliceblue;  
+    padding: 10px
+    margin 30px
+}
+
+
+
+
+/* Your code here */
