@@ -31,18 +31,24 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
 header>img {
-width: 180px;
+    width: 180px;
 }
+
 nav>a {
     color: white;
     text-decoration: none;
     margin: 10px;
     text-transform: uppercase;
 }
-main .landing {
+
+main {
     padding: 100px 25vw 50px 25vw;
     min-height: 55vh;
+}
+
+.landing {
     background: white;
     padding: 50px 15vw 100px 15vw;
     display: grid;
@@ -50,22 +56,27 @@ main .landing {
     align-items: center;
     justify-content: center;
 }
-main .landing>img{
+
+.landing>img {
     width: 100%;
 }
-h1, h2 {
+
+h1,
+h2 {
     font-family: Malamondo;
     font-weight: 400;
     text-transform: uppercase;
-    text-align: center; 
+    text-align: center;
 }
-h1 .landing {
+
+.landing h1 {
     color: black;
     line-height: 1.2em;
     font-size: 1.7em;
     font-family: Malamondo-Alt;
 }
-.landing {
+
+.landing a {
     text-align: center;
     background-color: #013672;
     color: white;
@@ -78,10 +89,12 @@ h1 .landing {
     border-radius: 4px;
     text-decoration: none;
 }
+
 footer {
     padding: 50px;
     text-align: center;
 }
+
 ul {
     margin-bottom: 50px;
 }
@@ -113,7 +126,8 @@ form label {
     margin-top: 10px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 550px;
     padding: 10px;
     border-radius: 4px;
