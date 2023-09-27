@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+body #home {
+    background-color: #b8b1e0 ;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body #bio {
+    background-color:#4e72de ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body #portfolio {
+    background-color: #3f5eba;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body #contact {
+    background-color:#152963 ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display:flex ;
+    flex-direction: column; 
+}
+
+/* create additional rules below:  */
