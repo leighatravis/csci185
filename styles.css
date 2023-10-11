@@ -1,7 +1,7 @@
 /* You're welcome to change any of this! */
 * {
     box-sizing: border-box;
-    font-family: <link rel="stylesheet" href="https://fonts.google.com/specimen/Bebas+Neue?classification=Display&sort=popularity"> ;
+    font-family: <link rel="stylesheet" href="https://fonts.google.com/specimen/Bebas+Neue?classification=Display&sort=popularity" >;
 }
 
 body {
@@ -9,10 +9,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-p, a, li {
+p,
+a,
+li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+
 #image-1 {
     background-image: url(https://i.pinimg.com/564x/ac/46/45/ac4645d6dd668c2e1c9c676294703eb4.jpg);
     height: 100vh;
@@ -21,8 +24,9 @@ p, a, li {
     align-items: center;
     justify-content: center;
 }
+
 #Quizes {
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #2681BC;
     text-align: center;
     height: 100vh;
@@ -31,9 +35,10 @@ p, a, li {
     align-items: center;
     justify-content: center;
 }
+
 #Tutorials {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #2E9568 ;    
+    background-color: #2E9568;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -41,16 +46,18 @@ p, a, li {
     align-items: center;
     justify-content: center;
 }
+
 #homework {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #952E4D;
-    text-align: center
+    text-align: center;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 #inspiration {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #58938E;
@@ -61,6 +68,7 @@ p, a, li {
     align-items: center;
     justify-content: center;
 }
+
 #class-exercises {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #935878;
@@ -71,17 +79,26 @@ p, a, li {
     align-items: center;
     justify-content: center;
 }
-section{
-    height:100vh;
+
+section {
+    height: 100vh;
     width: 100%;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   background-attachment: fixed;
+    background-attachment: fixed;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Corben', Georgia, Times, serif;
 }
-p, div {
+
+p,
+div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
