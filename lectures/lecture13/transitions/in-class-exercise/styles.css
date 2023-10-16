@@ -23,25 +23,51 @@ body {
     color: black;
     background: #CCC;
 }
-
-/*
 #section1 {
     background: #0c7474;
     color: white;
     transition: all 0.3s ease-out;
 }
-
 #section1:hover {
     background: purple;
     width: 220px;
     height: 220px;
+    border-radius: 50%;
 }
-*/
-
-
-/* 
-#section2 { }
-#section2:hover { } 
-#section3 { }
-#section3:hover { } 
-*/
+#section2 {
+    background: #60a39a;
+    color: #ffffff;
+    transition: all 0.3s ease-out;
+ }
+#section2:hover {
+    background: #a3a1c4;
+    width: 220px;
+    height: 220px;
+ } 
+#section3 {
+    background: #b53e57;
+    color: white;
+    transition: all 0.3s ease-out;
+ }
+#section3:hover {
+    background: #a8722c;
+    width: 220px;
+    height: 220px;
+ }
+ #section4 a,
+ #section4 a:link {
+     color: blue;
+     transition: all 0.3s ease-out;
+ }
+ 
+ #section4 a:hover,
+ #section4 a:focus {
+     text-decoration: none;
+     font-size: 20px;
+ }
+ 
+ #section4 a:active,
+ #section4 a:visited {
+     color: red;
+     text-decoration: none;
+ }
