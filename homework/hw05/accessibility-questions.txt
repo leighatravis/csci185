@@ -1,10 +1,13 @@
 Please answer the following accessibility questions:
 
-
 1. What accessibility corrections did you have to make?
+I had to add alternative text to the images that were missing it, also add a language to the document, and correct the empty button errors. 
 
 
 2. Do you think your website is usable if you turn off the CSS? Why or why not?
+I do not think the website is usable if you turn off css because the button, layout and spacing in general would not look right and be confusing for a person to understand. 
 
 
 3. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+Yes, when you use the tab key on this website it scrolls through the artists displayed without having to use your mouse or click anything. 
+
