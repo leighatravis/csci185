@@ -15,10 +15,12 @@ async function setup() {
 // in an animation loop (which is part of how p5.js 
 // works).
 function draw() {
+    //goal: make circle go diagonal and up//
     x += speed;
+    y -= 2;
 
     clear();
-    noFill();
+    fill("hotpink");
     circle(x, y, width);
     drawGrid(canvasWidth, canvasHeight);
 }

@@ -13,12 +13,16 @@ const photos = [
 let idx = 0;
 
 
+
 /* This function should:
     (1) display the new image inside of the .current-photo container, and 
     (2) update the caption inside of the .caption paragraph
 */
 function showImage() {
     console.log('Show image');
+    const img = document.querySelector('.current-photo img');
+    img.src = photos[idx]
+    .caption 
 }
 
 
@@ -30,6 +34,9 @@ function showImage() {
 */
 function forward() {
     console.log('forward');
+    idx += 1;
+    showImage();
+
 }
 
 
@@ -41,4 +48,6 @@ function forward() {
 */
 function back() {
     console.log('back');
+    idx -= 1;
+    showImage();
 }
