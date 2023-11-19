@@ -34,14 +34,14 @@ function draw() {
         console.log('car out of bounds!');
         c1.x =0;
     } else {
-        c1.x = c1.speed;
+        c1.x += c1.speed;
     }
 
     
     if (c2.x < 0) {
         c2.x = canvasWidth;
     } else {
-        c2.x = speed;
+        c2.x += c2.speed;
     }
  
     
