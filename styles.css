@@ -79,6 +79,16 @@ li {
     align-items: center;
     justify-content: center;
 }
+#final-project {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #935878;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 section {
     height: 100vh;
